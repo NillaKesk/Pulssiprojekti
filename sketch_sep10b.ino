@@ -24,7 +24,11 @@ void setup()
 
 void countPulse()
 {
-  
+  int ldrStatus = analogRead(ldrPin);
+
+  if (ldrStatus <=300) {
+    ledPin
+  }
 }
 
 void ChannelPulseA()
@@ -51,3 +55,4 @@ void loop()
 
   delay(3000);
 }
+
