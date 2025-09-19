@@ -25,8 +25,14 @@ void ChannelPulseA()
   pulseA++
 }
 
+void ChannelPulseB()
+{
+  pulseB++
+}
+
 void loop() 
 {
 
 }
+
 
