@@ -18,6 +18,8 @@ void setup()
   lcd.print("Cnl 1 waiting");
   lcd.setCursor(0, 1);
   lcd.print("Cnl 2 waiting");
+
+  delay(1000);
 }
 
 void ChannelPulseA()
@@ -31,8 +33,19 @@ void ChannelPulseB()
 }
 
 void loop() 
-{
+{  
+  lcd.begin(16, 2);
+  lcd.clear;
+  lcd.print("Cnl 1:");
+  lcd.print("       ");
 
+  lcd.begin(0, 1);
+  lcd.clear;
+  lcd.print("Cnl 2:");
+  lcd.print("       ");
+
+  delay(3000);
 }
+
 
 
