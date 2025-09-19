@@ -6,9 +6,6 @@ const int pinB;
 volatile unsigned long pulseA = 0;
 volatile unsigned long pulseB = 0;
 
-int prevA = LOW;
-int prevB = LOW;
-
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 void setup() 
@@ -23,12 +20,13 @@ void setup()
   lcd.print("Cnl 2 waiting");
 }
 
-void watchPulse(int pin, int &prevstate, pulse)
+void ChannelPulseA()
 {
-
+  pulseA++
 }
 
 void loop() 
 {
 
 }
+
