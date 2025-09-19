@@ -22,6 +22,11 @@ void setup()
   delay(1000);
 }
 
+void countPulse()
+{
+  
+}
+
 void ChannelPulseA()
 {
   pulseA++
@@ -46,6 +51,3 @@ void loop()
 
   delay(3000);
 }
-
-
-
