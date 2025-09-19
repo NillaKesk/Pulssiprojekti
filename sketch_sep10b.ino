@@ -27,7 +27,8 @@ void countPulse()
   int ldrStatus = analogRead(ldrPin);
 
   if (ldrStatus <=300) {
-    ledPin
+    digitalWrite(ledPin, LOW);
+    d
   }
 }
 
@@ -55,4 +56,5 @@ void loop()
 
   delay(3000);
 }
+
 
