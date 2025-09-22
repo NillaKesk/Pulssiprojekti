@@ -28,7 +28,7 @@ void countPulse()
 
   if (ldrStatus <=300) {
     digitalWrite(ledPin, LOW);
-    d
+    serialWrite.print(ldrstatus);
   }
 }
 
@@ -57,4 +57,11 @@ void loop()
   delay(3000);
 }
 
+void errorHandle()
+{
+  if
+  {
+    
+  }
+}
 
